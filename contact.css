@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border: 3px solid black;
+    top: 0;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border: 3px solid black;
+    top: 50px;
+    font-size: 20px;
+}
+nav ul{
+    list-style-type: none;
+    float:right;
+}
+nav ul a li{
+    display: inline-block;
+    margin: 0 -3px;
+    padding: 18px 30px;
+}
+
+nav ul a li:hover{
+    background-color: gray;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border: 3px solid black;
+    clear: both;
+    columns: 5;
+    padding-top: 30px;
+}
+
+.two{ 
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
